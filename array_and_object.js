@@ -53,6 +53,8 @@ const tambahSiswa = () => {
   daftarSiswa.push(siswaBaru)
 
   document.getElementById('txtNama').value = ""
+
+  tampilkanSiswa()
 }
 
 
